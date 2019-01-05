@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oranienbaum', serif;
+    font-size: 22px;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    text-shadow: none;
+    background-color: initial;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    height: 82px;
+    width: 100%;
+    min-width: 1200px;
+    background-color: #222;
+}
+.logo{
+    text-transform: uppercase;
+    color: royalblue;
+    font-size: 42px;
+    float: left;
+    margin-top: 16.50px;
+    cursor: pointer;
+}
+nav{
+    float: right;
+    color: #eee;
+    margin-top: 28.5px;
+}
+nav li{
+    float: left;
+    list-style: none;
+    padding: 2px 20px;
+    margin-left: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+nav li:hover{
+    color: royalblue;
+}
+.hero-banner{
+    height: 582px;
+    width: 100%;
+    background-color: #090909;
+}
+.hero-banner img{
+    height: 100%;
+    width: 1200px;
+    filter: invert(100%);
+}
+.about-me{
+    height: 520px;
+    width: 100%;
+    margin: 0;
+}
+.about-me-img{
+    float: left;
+    height: 399px;
+    width: 319px;
+    margin-top: 60.5px;
+}
+.about-me-text{
+    width: 600px;
+    float: right;
+    margin-top: 98px;
+}
+h2{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #222;
+    margin: 0;
+    margin-bottom: 38px;
+    
+}
+span{
+    font-size: 26px;
+    line-height: 32px;
+}
+.myName{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+} 
+.myName:hover{
+    color: royalblue;
+}
+.passion{
+    height: 410px;
+    width: 100%;
+    margin-bottom: 90px;
+} 
+.passion-text{
+    float: left;
+    width: 600px;
+    margin-top: 56px;
+}
+.passion-text h2:last-child{
+    margin-bottom: 0;
+}
+h1{
+    font-size: 36px;
+    line-height: 58px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.my-passion-img{
+    width: 555px;
+    height: 100%;
+    float: right;
+}
+.voice-recognition{
+    height: 505px;
+    width: 100%;
+    background-color: #0A090A;
+}
+.voice-gif{
+    width: 100%;
+    height: 505px;
+    filter: sepia(80%);
+}
+.custom-illustrations{
+    height: 1100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.custom-illustration-text{
+    width: 715px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.custom-illustration-images{
+    height: 826px;
+    width: 100%;
+    background-color: #fff;
+}
+.custom-illustration-images img{
+    width: 250px;
+    height: 403px;
+    margin-right: 14px;
+    margin-top: 14px;
+    filter: saturate(18%);
+}
+.custom-illustration-images img:hover{
+    filter: none;
+}
+.custom-illustration-images img:nth-child(4), .custom-illustration-images img:last-child{
+    margin-right: 0px;
+}
+.custom-illustration-images img:nth-child(1), .custom-illustration-images img:nth-child(2), .custom-illustration-images img:nth-child(3), .custom-illustration-images img:nth-child(4){
+    margin-top: 0px;
+}
+.work-environment{
+    height: 335px;
+    width: 100%;
+    background-color: #080815;
+    color: #fff;
+    padding: 80px 0px;
+    text-align: center;
+}
+.work-environment-text{
+    height: 335px;
+    width: 100%;
+}
+.work-environment h1{
+    line-height: 58px;
+}
+.work-environment h2{
+    line-height: 43px;
+    color: #fff;
+    letter-spacing: .5px;
+    font-weight: 400;
+}
+footer{
+    padding: 15px 0px;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+code{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
